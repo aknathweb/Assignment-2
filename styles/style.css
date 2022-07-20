@@ -92,7 +92,7 @@ section {
 
 .check-items a {
     width: 200px;
-    height: 30px;
+    min-height: 30px;
     padding: 5px;
     text-decoration: none;
     text-align: center;
@@ -216,7 +216,112 @@ footer {
 
 
 /* responsive desingn */
-/* @media screen and (min-width:768px) and (max-width:1023px) {
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    header {
+        margin-bottom: 3%;
+    }
 
-    
-} */
+    .header-text h1 {
+        font-size: 2.5em;
+    }
+
+    .header-text p {
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .check-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .check-items a {
+        border: 1px solid black;
+        margin: 1%;
+        width: 170px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        display: visiable;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #header-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    .header-text p {
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .halp-width {
+        width: 50%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .check-items {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+
+    .check-items a {
+        border: 1px solid black;
+        margin: 1%;
+        background-color: white;
+        color: black;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog .blog-image img {
+        width: 100%;
+    }
+
+    .contact-us {
+        flex-direction: column;
+    }
+}
