@@ -261,7 +261,8 @@ footer {
     }
 
     .view-all {
-        display: visiable;
+        display: flex;
+        text-align: center;
     }
 }
 
