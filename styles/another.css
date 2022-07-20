@@ -95,8 +95,7 @@ section {
 
 }
 
-
-.check-items .item-3 {
+.check-items .item-1 {
     background-color: red;
     color: white;
 }
@@ -115,48 +114,18 @@ section {
     min-width: 100px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(163, 157, 157);
-}
-
-.blog .blog-image img {
-    width: 100%;
-}
-
-.blog .blog-another {
-    padding: 5%;
-}
-
-.blog .blog-another a {
-    height: 20px;
-    padding: 5px 10px;
-    text-decoration: none;
+    padding: 10%;
     text-align: center;
-    border: 1px solid black;
-    color: black;
-    border-radius: 5px;
 }
 
-.blog .blog-another p {
-    font-weight: 700;
-}
-
-.hour-comment,
-.icon-text {
+.blog-image {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
-
 }
 
-.hour-comment img {
-    height: 100%;
-    width: 100%;
-}
-
-.hour-comment .icon-text p {
-    margin-right: 30px;
-    color: #5f5d5d;
-    padding: 2%;
+.blog-image img {
+    width: 35%;
 }
 
 /* footer start */
