@@ -207,7 +207,6 @@ footer {
 
 }
 
-/* change here */
 .social-icon a {
     text-decoration: none;
     color: #B9B9B9;
@@ -266,6 +265,7 @@ footer {
     }
 }
 
+/* mobile */
 @media screen and (max-width:767px) {
     #header-section {
         flex-direction: column;
