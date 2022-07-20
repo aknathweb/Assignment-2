@@ -1,7 +1,11 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Splash&display=swap');
 
 /* header section start */
 header {
@@ -16,7 +20,7 @@ header {
     justify-content: center;
     width: 90%;
     height: 100%;
-    padding: 2% 2% 0% 2%;
+    padding: 2% 4% 0% 4%;
     background-color: black;
     align-items: center;
     border-radius: 20px;
@@ -55,6 +59,7 @@ header {
 main {
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 
 section {
@@ -146,4 +151,22 @@ section {
 
 .hour-comment .icon-text {
     margin-right: 30px;
+    color: #161616;
+}
+
+/* footer start */
+footer {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.contact-us a {
+    height: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #B9B9B9;
+    border-radius: 5px;
 }
