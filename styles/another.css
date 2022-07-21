@@ -237,6 +237,11 @@ footer {
 
 /* mobile */
 @media screen and (max-width:767px) {
+    body {
+        min-width: 290px;
+        height: auto;
+    }
+
     #header-section {
         flex-direction: column;
         width: 90%;
